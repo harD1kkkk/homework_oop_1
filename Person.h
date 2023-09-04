@@ -10,7 +10,7 @@ public:
     Person();
     Person(string& n, int a);
     void setName(string& n);
-    std::string getName();
+    string getName();
     void setAge(int a);
     int getAge();
     void displayInfo();
